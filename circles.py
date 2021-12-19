@@ -2,6 +2,13 @@ import math
 import pygame
 from random import randint
 
+# Controls:
+# Spacebar -> Change background color
+# Click -> Add a circle (if circle won't overlap another circle).
+# Right Click -> Delete a circle (that your mouse is in).
+# Left Arrow -> Move all circles to the left.
+# Right Arrow -> Move all circles to the right.
+
 (width, height) = (1000, 800)
 GRAVITY_AMOUNT = 0.5
 NUDGE_AMOUNT = 5
